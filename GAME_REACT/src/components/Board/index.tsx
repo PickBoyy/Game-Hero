@@ -1,6 +1,6 @@
 import React from "react";
 import { GAME_SIZE } from "../../settings/consts";
-import Hero from "../Hero";
+import Hero from "../Hero/index";
 
 const Board = () => {
     return (
