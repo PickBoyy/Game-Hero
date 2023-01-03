@@ -1,12 +1,12 @@
 import React from "react";
 import { GAME_SIZE } from "../../settings/consts";
-import Hero from "../Hero/index";
+import Hero from "../Hero/";
 
 const Board = () => {
     return (
         <div>
             <Hero/>
-            <img src="./public/assets/tileset.gif" alt="board" width={GAME_SIZE} height={GAME_SIZE}/>
+            <img src="\image\assets\BOARD.gif" alt="board" width={GAME_SIZE} height={GAME_SIZE}/>
         </div>
         
     )
